@@ -27,3 +27,11 @@ To isolate your project and avoid dependency conflicts, create a virtual environ
 3. Run the following command to create a virtual environment:
    ```bash
    python -m venv env
+##Activate the Virtual Environment
+ On Windows:
+ ```bash
+.\env\Scripts\activate
+
+
+
+
