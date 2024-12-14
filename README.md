@@ -2,6 +2,8 @@
 
 This Python script automates the creation of three files (`index.html`, `styles.css`, `index.js`) in a specified directory. It ensures you no longer need to manually create these files while learning or working on JavaScript projects.
 
+---
+
 ## Features
 - Takes user input for a directory path.
 - Verifies if the directory exists.
@@ -16,9 +18,12 @@ This Python script automates the creation of three files (`index.html`, `styles.
 
 ---
 
-## Environment File Setup
+## Setting Up a Python Virtual Environment
 
-You can set up an `.env` file to define the directory path instead of manually inputting it every time. Here's how:
+To isolate your project and avoid dependency conflicts, create a virtual environment:
 
-1. Create an `.env` file in the same directory as the script.
-2. Add the following line to specify your directory path:
+1. Open a terminal or command prompt.
+2. Navigate to the directory where the script is located.
+3. Run the following command to create a virtual environment:
+   ```bash
+   python -m venv env
